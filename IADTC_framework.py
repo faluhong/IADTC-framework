@@ -511,11 +511,6 @@ def daily_mean_lst_calculate(doy, land_boundary, img_latitude,
 
                 dtr_four = np.nanmax(lst_four) - np.nanmin(lst_four)
 
-                # if (np.isnan(time_four).any()) | (np.isnan(lst_four).any()):
-                #     print(row, col, 'Data missing', time_four, lst_four)
-                #     daily_mean_lst[row, col] = np.nan
-                #     continue
-
                 if dtr_four < 5:
                     # Scenario #1
                     # DTR_four < 5.0 K, daily mean LST is calculated as the mean of LSTs at four overpass times
