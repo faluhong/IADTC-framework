@@ -651,7 +651,7 @@ def main():
         output_daily_mean_lst(doy, daily_mean_lst[doy - 1, :, :], pwd)
 
     end_time = time.perf_counter()
-    print('running time is {}'.format(end_time - start_time))
+    print('running time is {}s'.format(end_time - start_time))
 
 
 if __name__ == "__main__":
