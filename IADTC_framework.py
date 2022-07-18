@@ -1,6 +1,6 @@
 """
 
-Demo code of the IADTC framework to generate the global seamless daily mean land surface temperature (LST).
+Demo code of the IADTC framework to generate the global spatiotemporally seamless daily mean land surface temperature.
 
 Major steps include:
 (1) using the multi-type ATC model to reconstruct the under-cloud LST for each MODIS overpass time.
@@ -11,8 +11,8 @@ Here the demo data ranging from 15 N to 53.5 N and from 73 E to 135.5 E in 2019 
 This is the stand-alone version base on python 3.8, so you can direct run the code to get the results.
 The running time for one day is around 3 min. For the whole year, it may take around 18 h.
 
-The generated global spatiotemporally seamless daily mean LST product from 2003 to 2019
-is available at: https://doi.org/10.5281/zenodo.6287052
+The generated global spatiotemporally seamless daily mean land surface temperature product from 2003 to 2019
+is publicly available at: https://doi.org/10.5281/zenodo.6287052
 
 You may refer to the following papers for reference.
 [1] Hong et al., (2022).
