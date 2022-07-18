@@ -11,7 +11,7 @@ Here the demo data ranging from 15 N to 53.5 N and from 73 E to 135.5 E in 2019 
 This is the stand-alone version base on python 3.8, so you can direct run the code to get the results.
 The running time for one day is around 3 min. For the whole year, it may take around 18 h.
 
-The generated global spatiotemporally seamless daily mean LST product
+The generated global spatiotemporally seamless daily mean LST product from 2003 to 2019
 is available at: https://doi.org/10.5281/zenodo.6287052
 
 You may refer to the following papers for reference.
